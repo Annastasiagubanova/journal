@@ -27,16 +27,11 @@ body{
 main {
     color: black;
     line-height: 1.5;
-}
-
-.form-container {
-    padding: 30px;
 
     width: 100%;
     max-width: 500px;
-
-    box-sizing: border-box;
 }
+
 
 h1 {
     font-size: 40px;
@@ -119,6 +114,7 @@ label {
 
     padding: 10px;
     box-sizing: border-box;
+    
 
 }
 
