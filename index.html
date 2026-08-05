@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Журнал приема-передачи ТСД</title>
+
+
+
+
+
+
+</head>
+<body>
+    <main>
+        <h1>Журнал приема-перадачи ТСД</h1>
+        <p class="subtitle">Заполнение операции приема-передачи</p>  
+    </main>
+    
+<div class="form-container">
+    <form form id="tsdForm" onsubmit="return false;">
+        <div class="form-group">
+            <label>Дата и время</data>
+                <input type="datetime-local" id="datetime">
+        </div>
+
+        <div class="form-group">
+            <label>Участок:</label>
+            <select id="site" required>
+                <option>Сборка 1</option>
+                <option>Сборка 2</option>
+                <option>Пошив</option>
+                <option>ТФК</option>
+                <option>Склад/погрузка</option>
+                <option>Упаковка</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Тип операции:</label>
+            <select id="opType" required>
+                <option>Замена ТСД</option>
+                <option>Сдача ТСД</option>
+                <option>Выдача ТСД</option>
+                <option>Ремонт</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Сдаваемый ТСД:</label>
+            <input type="text" id="tsdSubmitted" placeholder="Номер ТСД" required>
+        </div>
+
+        <div class="form-group">
+            <label>Причина замены / неисправность:</label>
+            <input type="text" id="reason" placeholder="Укажите принчину" required>
+        </div>
+
+        <div class="form-group">
+            <label>Выдаваемый ТСД:</label>
+            <input type="text" id="tsdIssued" placeholder="Номер ТСД" required>
+        </div>
+
+        <div class="form-group">
+            <label>ФИО Рабочего <strong>1</strong>:</label>
+            <input type="text" id="worker1" placeholder="ФИО" required>
+        </div>
+
+        <div class="form-group">
+            <label>ФИО Рабочего <strong>2</strong>:</label>
+            <input type="text" id="worker2" placeholder="ФИО" required>
+        </div>
+
+        <div class="form-group">
+            <label>PIN-код рабочего <strong>1</strong>:</label>
+            <input type="password" id="pin1" class="pin-input" maxlength="4" required>
+        </div>
+
+        <div class="form-group">
+            <label>PIN-код рабочего <strong>2</strong>:</label>
+            <input type="password" id="pin2" class="pin-input" maxlength="4" required>
+        </div>
+
+        <div class="form-group">
+            <label>Ваш PIN-код (Выдавшего):</label>
+            <input type="password" id="issuerPin" class="issuerPin" maxlength="4" required>
+        </div>
+
+        <button class="btn-save" type="submit">Потвердить и отправить</button>
+    </form>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

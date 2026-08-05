@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Inter";
+    src: url(Inter/Inter-Italic-VariableFont_opsz\,wght.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(Inter/Inter-Italic-VariableFont_opsz\,wght.ttf) format("truetype");
+    font-size: 600;
+    font-style: normal;
+}
+
+body{
+    background-color: #f0f0f0;
+
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+main {
+    color: black;
+    line-height: 1.5;
+}
+
+.form-container {
+    padding: 30px;
+
+    width: 100%;
+    max-width: 500px;
+
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+form {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+
+    margin: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+
+    max-width: 50%;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+
+input, select {
+    width: 100%;
+    margin-bottom: 4px;
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    
+    background-color: rgb(227, 237, 247);
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+
+
+.btn-save {
+    font-size: 20px;
+    border-style: none;
+    border-radius: 30px;
+    line-height: 1.5;
+
+    background-color: rgb(94, 188, 89);
+    border-style: none;
+    border-radius: 30px;
+
+    padding: 10px 10px;
+
+    margin: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 5px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+
+footer {
+    font-size: 15px;
+    color: grey;
+    padding-top: 10px;
+}
