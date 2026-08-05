@@ -1,6 +1,6 @@
 "use strict";
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyTlUUUlBwVocrYvLQp0xQ2mJIIPuHaFgIYe01MS5bhMUSI-KjsgScs7F5KtnZaTT3JdA/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyTlUUUlBwVocrYvLQp0xQ2mJIIPuHaFgIYe01MS5bhMUSI-KjsgScs7F5KtnZaTT3JdA/exechttps://script.google.com/macros/s/AKfycbyTlUUUlBwVocrYvLQp0xQ2mJIIPuHaFgIYe01MS5bhMUSI-KjsgScs7F5KtnZaTT3JdA/exec";
 
 const VALID_PINS = [
   "2001",
