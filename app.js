@@ -24,6 +24,7 @@ const formData = {
     tsdSubmitted: document.getElementById("tsdSubmitted")?.value || "",
     reason: document.getElementById("reason")?.value || "",
     tsdIssued: document.getElementById("tsdIssued")?.value || "",
+    сondition: document.getElementById("сondition")?.value || "",
     worker1: worker1,
     worker2: worker2,
     pin1: pin1,
