@@ -17,19 +17,19 @@ document.getElementById("tsdForm").addEventListener("submit", function(e) {
         return
     }
 
-const formData = {
-    datetime: document.getElementById("datetime")?.value || "",
-    site: document.getElementById("site")?.value || "",
-    opType: document.getElementById("opType")?.value || "",
-    tsdSubmitted: document.getElementById("tsdSubmitted")?.value || "",
-    reason: document.getElementById("reason")?.value || "",
-    tsdIssued: document.getElementById("tsdIssued")?.value || "",
-    сondition: document.getElementById("condition")?.value || "",
-    worker1: worker1,
-    worker2: worker2,
-    pin1: pin1,
-    pin2: pin2,
-    issuerPin: issuerPin
+    const formData = {
+        datetime: document.getElementById("datetime")?.value || "",
+        site: document.getElementById("site")?.value || "",
+        opType: document.getElementById("opType")?.value || "",
+        tsdSubmitted: document.getElementById("tsdSubmitted")?.value || "",
+        reason: document.getElementById("reason")?.value || "",
+        tsdIssued: document.getElementById("tsdIssued")?.value || "",
+        // сondition: document.getElementById("condition")?.value || "",
+        worker1: worker1,
+        worker2: worker2,
+        pin1: pin1,
+        pin2: pin2,
+        issuerPin: issuerPin
 };
 
     fetch(SCRIPT_URL, {
